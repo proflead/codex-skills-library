@@ -115,6 +115,7 @@ Skills are organized by domain under `skills/`. Each skill is a folder with a `S
 3. Improve or extend skills as your team learns what works best.
 
 Step-by-step tutorial: https://proflead.dev/posts/codex-skills-explained-101/
+
 Video tutorial: https://youtu.be/d3Ydt6LyGeY
 
 
