@@ -25,90 +25,90 @@ Skills are organized by domain under `skills/`. Each skill is a folder with a `S
 ## Skills by domain
 
 ### Foundation
-- `codebase-orientation`: Map entry points, key modules, and build/run paths; include local setup commands, env vars, and a safe starter task.
-- `git-basic-helper`: Provide minimal, safe git commands with clear intent and warnings for destructive actions.
-- `debugging-checklist`: Give a prioritized checklist from repro to isolation, logging, and hypothesis validation.
-- `error-message-explainer`: Translate compiler/runtime errors into plain language, likely root causes, and targeted fixes.
-- `linter-fix-guide`: Explain lint rules, show the expected pattern, and propose the smallest fix.
-- `config-file-explainer`: Summarize purpose, key sections, defaults, and which settings are safe to change.
-- `data-structure-chooser`: Recommend a structure based on operations and constraints, with time/space tradeoffs.
-- `dependency-install-helper`: List required runtimes, install steps by platform, and verification commands.
-- `small-script-generator`: Generate tiny automation scripts with safe defaults and a usage example.
-- `ticket-breakdown`: Turn a request into small, testable steps with dependencies and validation checks.
-- `log-summarizer`: Group errors, identify the first failure, and propose concrete next actions.
+- [`codebase-orientation`](skills/foundation/codebase-orientation/SKILL.md): Map entry points, key modules, and build/run paths; include local setup commands, env vars, and a safe starter task.
+- [`git-basic-helper`](skills/foundation/git-basic-helper/SKILL.md): Provide minimal, safe git commands with clear intent and warnings for destructive actions.
+- [`debugging-checklist`](skills/foundation/debugging-checklist/SKILL.md): Give a prioritized checklist from repro to isolation, logging, and hypothesis validation.
+- [`error-message-explainer`](skills/foundation/error-message-explainer/SKILL.md): Translate compiler/runtime errors into plain language, likely root causes, and targeted fixes.
+- [`linter-fix-guide`](skills/foundation/linter-fix-guide/SKILL.md): Explain lint rules, show the expected pattern, and propose the smallest fix.
+- [`config-file-explainer`](skills/foundation/config-file-explainer/SKILL.md): Summarize purpose, key sections, defaults, and which settings are safe to change.
+- [`data-structure-chooser`](skills/foundation/data-structure-chooser/SKILL.md): Recommend a structure based on operations and constraints, with time/space tradeoffs.
+- [`dependency-install-helper`](skills/foundation/dependency-install-helper/SKILL.md): List required runtimes, install steps by platform, and verification commands.
+- [`small-script-generator`](skills/foundation/small-script-generator/SKILL.md): Generate tiny automation scripts with safe defaults and a usage example.
+- [`ticket-breakdown`](skills/foundation/ticket-breakdown/SKILL.md): Turn a request into small, testable steps with dependencies and validation checks.
+- [`log-summarizer`](skills/foundation/log-summarizer/SKILL.md): Group errors, identify the first failure, and propose concrete next actions.
 
 ### Docs
-- `readme-polish`: Add missing setup details, env vars, and troubleshooting guidance while keeping it concise.
-- `function-docstrings`: Document purpose, parameters, return values, and error conditions in project style.
-- `release-notes-drafter`: Group changes by feature/fix/breaking, translate to user impact, and add migration notes.
-- `team-onboarding-guide`: Provide access/setup steps, key services, and a first-week learning plan.
+- [`readme-polish`](skills/docs/readme-polish/SKILL.md): Add missing setup details, env vars, and troubleshooting guidance while keeping it concise.
+- [`function-docstrings`](skills/docs/function-docstrings/SKILL.md): Document purpose, parameters, return values, and error conditions in project style.
+- [`release-notes-drafter`](skills/docs/release-notes-drafter/SKILL.md): Group changes by feature/fix/breaking, translate to user impact, and add migration notes.
+- [`team-onboarding-guide`](skills/docs/team-onboarding-guide/SKILL.md): Provide access/setup steps, key services, and a first-week learning plan.
 
 ### Testing
-- `unit-test-starter`: Draft tests around core behavior, edge cases, and failure paths with run instructions.
-- `integration-test-planner`: Identify integration points, scenarios, data flows, and needed fixtures/mocks.
-- `bug-repro-plan`: Produce a minimal repro with exact steps, environment details, and expected vs actual.
+- [`unit-test-starter`](skills/testing/unit-test-starter/SKILL.md): Draft tests around core behavior, edge cases, and failure paths with run instructions.
+- [`integration-test-planner`](skills/testing/integration-test-planner/SKILL.md): Identify integration points, scenarios, data flows, and needed fixtures/mocks.
+- [`bug-repro-plan`](skills/testing/bug-repro-plan/SKILL.md): Produce a minimal repro with exact steps, environment details, and expected vs actual.
 
 ### API
-- `api-request-builder`: Build curl/fetch requests with auth, headers, and response inspection tips.
-- `api-contract-checker`: Compare endpoints and payloads, flag breaking changes, and suggest versioning.
-- `api-error-taxonomy`: Standardize error codes, payload shape, and logging guidance.
-- `graphql-query-optimizer`: Reduce query depth and N+1 patterns using batching, caching, and pagination.
+- [`api-request-builder`](skills/api/api-request-builder/SKILL.md): Build curl/fetch requests with auth, headers, and response inspection tips.
+- [`api-contract-checker`](skills/api/api-contract-checker/SKILL.md): Compare endpoints and payloads, flag breaking changes, and suggest versioning.
+- [`api-error-taxonomy`](skills/api/api-error-taxonomy/SKILL.md): Standardize error codes, payload shape, and logging guidance.
+- [`graphql-query-optimizer`](skills/api/graphql-query-optimizer/SKILL.md): Reduce query depth and N+1 patterns using batching, caching, and pagination.
 
 ### Frontend
-- `accessibility-basic-check`: Check contrast, labels, focus order, and keyboard navigation for regressions.
-- `css-layout-helper`: Diagnose layout intent and provide minimal flex/grid fixes with rationale.
-- `cli-ux-improver`: Improve CLI defaults, help text, and errors with actionable next steps.
+- [`accessibility-basic-check`](skills/frontend/accessibility-basic-check/SKILL.md): Check contrast, labels, focus order, and keyboard navigation for regressions.
+- [`css-layout-helper`](skills/frontend/css-layout-helper/SKILL.md): Diagnose layout intent and provide minimal flex/grid fixes with rationale.
+- [`cli-ux-improver`](skills/frontend/cli-ux-improver/SKILL.md): Improve CLI defaults, help text, and errors with actionable next steps.
 
 ### Backend
-- `caching-strategy-helper`: Choose cache type, TTLs, and invalidation triggers based on freshness needs.
-- `queue-processing-patterns`: Define idempotency, retries, visibility timeouts, and dead-letter routing.
-- `feature-flag-playbook`: Plan targeting, rollout phases, monitoring, and cleanup criteria.
-- `system-design-draft`: Outline components, data flow, storage, and tradeoffs with open questions.
+- [`caching-strategy-helper`](skills/backend/caching-strategy-helper/SKILL.md): Choose cache type, TTLs, and invalidation triggers based on freshness needs.
+- [`queue-processing-patterns`](skills/backend/queue-processing-patterns/SKILL.md): Define idempotency, retries, visibility timeouts, and dead-letter routing.
+- [`feature-flag-playbook`](skills/backend/feature-flag-playbook/SKILL.md): Plan targeting, rollout phases, monitoring, and cleanup criteria.
+- [`system-design-draft`](skills/backend/system-design-draft/SKILL.md): Outline components, data flow, storage, and tradeoffs with open questions.
 
 ### Data
-- `sql-query-starter`: Build SELECT queries with filters, ordering, limits, and parameter placeholders.
-- `db-migration-reviewer`: Check lock risk, backfills, ordering, and rollback safety.
-- `data-governance-check`: Map data sensitivity, retention, access, and audit requirements.
+- [`sql-query-starter`](skills/data/sql-query-starter/SKILL.md): Build SELECT queries with filters, ordering, limits, and parameter placeholders.
+- [`db-migration-reviewer`](skills/data/db-migration-reviewer/SKILL.md): Check lock risk, backfills, ordering, and rollback safety.
+- [`data-governance-check`](skills/data/data-governance-check/SKILL.md): Map data sensitivity, retention, access, and audit requirements.
 
 ### Infra
-- `ci-failure-triage`: Classify failures, identify flake sources, and propose stabilizing fixes.
-- `observability-setup`: Define key metrics, add correlation IDs, and set alert thresholds.
-- `iac-reviewer`: Validate security groups, IAM rules, state changes, and deletion risk.
-- `platform-migration-plan`: Create phased migration steps with compatibility and rollback.
-- `multi-region-strategy`: Choose active-active or active-passive with data consistency tradeoffs.
-- `cross-service-debugger`: Correlate logs/traces across services and isolate the failing hop.
-- `zero-downtime-migration`: Plan dual writes, cutover checks, and rollback triggers.
+- [`ci-failure-triage`](skills/infra/ci-failure-triage/SKILL.md): Classify failures, identify flake sources, and propose stabilizing fixes.
+- [`observability-setup`](skills/infra/observability-setup/SKILL.md): Define key metrics, add correlation IDs, and set alert thresholds.
+- [`iac-reviewer`](skills/infra/iac-reviewer/SKILL.md): Validate security groups, IAM rules, state changes, and deletion risk.
+- [`platform-migration-plan`](skills/infra/platform-migration-plan/SKILL.md): Create phased migration steps with compatibility and rollback.
+- [`multi-region-strategy`](skills/infra/multi-region-strategy/SKILL.md): Choose active-active or active-passive with data consistency tradeoffs.
+- [`cross-service-debugger`](skills/infra/cross-service-debugger/SKILL.md): Correlate logs/traces across services and isolate the failing hop.
+- [`zero-downtime-migration`](skills/infra/zero-downtime-migration/SKILL.md): Plan dual writes, cutover checks, and rollback triggers.
 
 ### Security
-- `security-quick-scan`: Check auth, input validation, secrets, and risky dependencies.
-- `threat-modeling`: Identify assets, trust boundaries, threats, and mitigations.
-- `dependency-risk-audit`: Review licenses, vulnerabilities, and maintainer health.
-- `compliance-readiness`: Map controls to evidence, highlight gaps, and assign remediation.
-- `config-hardening`: Enforce safer defaults, validation, and secret handling.
+- [`security-quick-scan`](skills/security/security-quick-scan/SKILL.md): Check auth, input validation, secrets, and risky dependencies.
+- [`threat-modeling`](skills/security/threat-modeling/SKILL.md): Identify assets, trust boundaries, threats, and mitigations.
+- [`dependency-risk-audit`](skills/security/dependency-risk-audit/SKILL.md): Review licenses, vulnerabilities, and maintainer health.
+- [`compliance-readiness`](skills/security/compliance-readiness/SKILL.md): Map controls to evidence, highlight gaps, and assign remediation.
+- [`config-hardening`](skills/security/config-hardening/SKILL.md): Enforce safer defaults, validation, and secret handling.
 
 ### Performance
-- `performance-trace-guide`: Capture stable traces, identify hotspots, and propose fixes.
-- `scalability-assessment`: Estimate growth, find bottlenecks, and suggest scale strategies.
-- `performance-budgeting`: Set budgets, thresholds, and CI or release enforcement.
-- `cost-optimization-review`: Identify cost drivers, right-sizing, and savings estimates.
+- [`performance-trace-guide`](skills/performance/performance-trace-guide/SKILL.md): Capture stable traces, identify hotspots, and propose fixes.
+- [`scalability-assessment`](skills/performance/scalability-assessment/SKILL.md): Estimate growth, find bottlenecks, and suggest scale strategies.
+- [`performance-budgeting`](skills/performance/performance-budgeting/SKILL.md): Set budgets, thresholds, and CI or release enforcement.
+- [`cost-optimization-review`](skills/performance/cost-optimization-review/SKILL.md): Identify cost drivers, right-sizing, and savings estimates.
 
 ### Reliability
-- `reliability-slo-sla`: Define SLIs, error budgets, and alert thresholds tied to impact.
-- `incident-postmortem`: Create a timeline, root cause analysis, and action items.
+- [`reliability-slo-sla`](skills/reliability/reliability-slo-sla/SKILL.md): Define SLIs, error budgets, and alert thresholds tied to impact.
+- [`incident-postmortem`](skills/reliability/incident-postmortem/SKILL.md): Create a timeline, root cause analysis, and action items.
 
 ### Architecture
-- `architecture-review`: Evaluate assumptions, bottlenecks, and failure modes with tradeoffs.
-- `domain-modeling`: Identify entities, invariants, and bounded contexts with interfaces.
+- [`architecture-review`](skills/architecture/architecture-review/SKILL.md): Evaluate assumptions, bottlenecks, and failure modes with tradeoffs.
+- [`domain-modeling`](skills/architecture/domain-modeling/SKILL.md): Identify entities, invariants, and bounded contexts with interfaces.
 
 ### Planning
-- `refactor-roadmap`: Sequence refactors with tests, flags, and checkpoints.
-- `tech-debt-portfolio`: Catalog debt, estimate impact, and prioritize with ROI.
-- `roadmap-prioritization`: Score initiatives by impact, effort, and dependencies.
-- `org-standardization`: Propose minimal standards and adoption enforcement.
-- `vendor-evaluation`: Compare vendors by security, integration, cost, and risks.
-- `dependency-upgrade-plan`: Order upgrades, note breaking changes, and plan rollback.
-- `simple-refactor`: Improve naming and structure without behavior changes.
-- `pr-reviewer`: Identify logic bugs, edge cases, and missing tests with severity.
+- [`refactor-roadmap`](skills/planning/refactor-roadmap/SKILL.md): Sequence refactors with tests, flags, and checkpoints.
+- [`tech-debt-portfolio`](skills/planning/tech-debt-portfolio/SKILL.md): Catalog debt, estimate impact, and prioritize with ROI.
+- [`roadmap-prioritization`](skills/planning/roadmap-prioritization/SKILL.md): Score initiatives by impact, effort, and dependencies.
+- [`org-standardization`](skills/planning/org-standardization/SKILL.md): Propose minimal standards and adoption enforcement.
+- [`vendor-evaluation`](skills/planning/vendor-evaluation/SKILL.md): Compare vendors by security, integration, cost, and risks.
+- [`dependency-upgrade-plan`](skills/planning/dependency-upgrade-plan/SKILL.md): Order upgrades, note breaking changes, and plan rollback.
+- [`simple-refactor`](skills/planning/simple-refactor/SKILL.md): Improve naming and structure without behavior changes.
+- [`pr-reviewer`](skills/planning/pr-reviewer/SKILL.md): Identify logic bugs, edge cases, and missing tests with severity.
 
 ## Get started
 
