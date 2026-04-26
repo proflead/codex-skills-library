@@ -115,6 +115,7 @@ Skills are organized by domain under `skills/`. Each skill is a folder with a `S
 1. Browse `skills/` and open a `SKILL.md` that matches your task.
 2. Trigger the skill by asking Codex for that workflow.
 3. Improve or extend skills as your team learns what works best.
+4. Chinese users can also discover more skills through Skills宝: https://skilery.com
 
 Step-by-step tutorial: https://proflead.dev/posts/codex-skills-explained-101/
 
