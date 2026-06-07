@@ -23,7 +23,7 @@ Use this skill to turn a repeated workflow, domain practice, or tool integration
 8. Initialize the folder with the local skill initializer when available. Prefer:
 
 ```bash
-python3 /Users/huangzhou/.codex/skills/.system/skill-creator/scripts/init_skill.py <skill-name> --path <parent-dir>
+python3 "${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-creator/scripts/init_skill.py" <skill-name> --path <parent-dir>
 ```
 
 Add `--resources scripts,references,assets` only for resource directories the skill truly needs. Pass `--interface display_name=...`, `--interface short_description=...`, and `--interface default_prompt='Use $skill-name to ...'` when creating UI metadata.
@@ -33,7 +33,7 @@ Add `--resources scripts,references,assets` only for resource directories the sk
 11. Validate the folder before delivery:
 
 ```bash
-python3 /Users/huangzhou/.codex/skills/.system/skill-creator/scripts/quick_validate.py <path-to-skill-folder>
+python3 "${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-creator/scripts/quick_validate.py" <path-to-skill-folder>
 ```
 
 12. For complex skills, forward-test with realistic prompts and revise based on what the skill failed to make obvious.
