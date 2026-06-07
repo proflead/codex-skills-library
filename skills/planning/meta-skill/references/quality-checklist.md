@@ -35,7 +35,7 @@ Use this checklist before delivering a created or updated skill.
 ## Body
 
 - The first paragraph explains what the skill enables.
-- Instructions are actionable and written for another Codex instance.
+- Instructions are actionable and written for another agent instance.
 - The workflow is shorter than the task it replaces.
 - Examples are concrete, minimal, and directly reusable.
 - Long optional detail lives in `references/`, not inline.
@@ -50,8 +50,8 @@ Use this checklist before delivering a created or updated skill.
 
 ## Validation
 
-- Run `quick_validate.py` against the final skill folder.
-- Inspect `agents/openai.yaml` if present; `default_prompt` should mention `$skill-name` literally.
+- Run the relevant platform validator, schema checker, or install test against the final skill folder.
+- Inspect platform-specific UI metadata if present; any `default_prompt` should mention `$skill-name` literally.
 - Check for leftover TODO markers or template prose.
 - The final response can say why the skill is better after the update.
 - If the skill changes a risky or complex workflow, forward-test it with a realistic user request.

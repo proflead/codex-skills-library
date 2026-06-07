@@ -1,11 +1,11 @@
 ---
 name: meta-skill
-description: Design, create, audit, and refine Codex skills with careful evaluation, competitive research, a concise design brief, and a distinctive skill identity. Use when Codex needs to make a new skill folder, update an existing skill, write SKILL.md instructions, decide what scripts/references/assets belong in a skill, validate skill metadata, compare similar skills or tools, improve a skill using meta-skill principles, or turn a repeated workflow into a reusable Codex capability with a clear point of view.
+description: Design, create, audit, and refine Agent Skills with careful evaluation, competitive research, a concise design brief, and a distinctive skill identity. Use when an agent needs to make a new skill folder, update an existing skill, write SKILL.md instructions, decide what scripts/references/assets belong in a skill, validate skill metadata, compare similar skills or tools, improve a skill using meta-skill principles, or turn a repeated workflow into a reusable agent capability with a clear point of view.
 ---
 
 # Meta Skill
 
-Use this skill to turn a repeated workflow, domain practice, or tool integration into a compact Codex skill that another agent can use without extra explanation. Treat each skill as a small product: evaluate whether it deserves to exist, study what already solves the problem, write a crisp design brief, then give it a distinct working style and purpose.
+Use this skill to turn a repeated workflow, domain practice, or tool integration into a compact Agent Skill that another agent can use without extra explanation. Treat each skill as a small product: evaluate whether it deserves to exist, study what already solves the problem, write a crisp design brief, then give it a distinct working style and purpose.
 
 ## Workflow
 
@@ -20,21 +20,11 @@ Use this skill to turn a repeated workflow, domain practice, or tool integration
    - `references/` for longer docs that should be loaded only when relevant.
    - `scripts/` for deterministic or repeated operations that should not be rewritten each time.
    - `assets/` for templates, fonts, icons, examples, or other files used in final outputs.
-8. Initialize the folder with the local skill initializer when available. Prefer:
-
-```bash
-python3 "${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-creator/scripts/init_skill.py" <skill-name> --path <parent-dir>
-```
-
-Add `--resources scripts,references,assets` only for resource directories the skill truly needs. Pass `--interface display_name=...`, `--interface short_description=...`, and `--interface default_prompt='Use $skill-name to ...'` when creating UI metadata.
+8. Initialize or create the folder using the best helper available in the current agent environment. If no initializer exists, create the folder manually with a required `SKILL.md` and only the resource directories the skill truly needs. Pass UI metadata such as display name, short description, and default prompt only when the host agent or marketplace supports it.
 
 9. Replace all placeholders. Keep frontmatter to only `name` and `description`; put all trigger conditions in `description`, because the body loads only after the skill triggers.
-10. Write the body as instructions for another Codex instance. Use imperative language, compact examples, and explicit references to bundled files only when those files should be read.
-11. Validate the folder before delivery:
-
-```bash
-python3 "${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-creator/scripts/quick_validate.py" <path-to-skill-folder>
-```
+10. Write the body as instructions for another agent instance. Use imperative language, compact examples, and explicit references to bundled files only when those files should be read.
+11. Validate the folder before delivery using the relevant platform validator, schema checker, or install test. If no validator exists, inspect frontmatter, resource paths, trigger boundaries, and example prompts manually.
 
 12. For complex skills, forward-test with realistic prompts and revise based on what the skill failed to make obvious.
 
@@ -50,15 +40,15 @@ python3 "${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-creator/scripts/quick_
 
 - Search available local skills and plugins first. Compare names, descriptions, resource structure, and trigger boundaries.
 - When external research is appropriate and available, inspect comparable tools, repos, docs, marketplace entries, or examples before finalizing scope.
-- Treat `skill-creator` as the baseline for general Codex skill mechanics. This skill should add product judgment, differentiation, and design coherence on top of that baseline.
+- Treat the host platform's skill creation guide or validator as the baseline for mechanics. This skill should add product judgment, differentiation, and design coherence on top of that baseline.
 - Capture only the useful delta in the skill itself: what this skill does differently, what it intentionally avoids, and what neighboring skill should be used instead.
-- Do not clone a competitor's structure blindly. Borrow proven patterns, then adapt them to the user's actual workflow and Codex's progressive disclosure model.
+- Do not clone a competitor's structure blindly. Borrow proven patterns, then adapt them to the user's actual workflow and the host agent's progressive disclosure model.
 
 ## Design Brief
 
 Before creating or substantially updating a skill, sketch the brief from `references/design-brief.md`. Use it to make tradeoffs explicit: whether to build, what to research, what to exclude, and how to know the skill improved.
 
-If updating this skill itself, apply the same brief recursively: compare it to `skill-creator`, identify the missing meta-level behavior, then revise only the parts that make future skill creation more discerning, researched, or distinctive.
+If updating this skill itself, apply the same brief recursively: compare it to the closest skill-creation baseline, identify the missing meta-level behavior, then revise only the parts that make future skill creation more discerning, researched, or distinctive.
 
 ## Distinctive Soul
 
