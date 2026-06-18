@@ -49,6 +49,7 @@ Skills are organized by domain under `skills/`. Each skill is a folder with a `S
 - [`bug-repro-plan`](skills/testing/bug-repro-plan/SKILL.md): Produce a minimal repro with exact steps, environment details, and expected vs actual.
 
 ### API
+- [`buffer-api`](skills/api/buffer-api/SKILL.md): Build Buffer GraphQL API integrations for auth, channel discovery, post creation, pagination, errors, and rate limits.
 - [`api-request-builder`](skills/api/api-request-builder/SKILL.md): Build curl/fetch requests with auth, headers, and response inspection tips.
 - [`api-contract-checker`](skills/api/api-contract-checker/SKILL.md): Compare endpoints and payloads, flag breaking changes, and suggest versioning.
 - [`api-error-taxonomy`](skills/api/api-error-taxonomy/SKILL.md): Standardize error codes, payload shape, and logging guidance.
