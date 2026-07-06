@@ -53,6 +53,7 @@ Skills are organized by domain under `skills/`. Each skill is a folder with a `S
 - [`api-request-builder`](skills/api/api-request-builder/SKILL.md): Build curl/fetch requests with auth, headers, and response inspection tips.
 - [`api-contract-checker`](skills/api/api-contract-checker/SKILL.md): Compare endpoints and payloads, flag breaking changes, and suggest versioning.
 - [`api-error-taxonomy`](skills/api/api-error-taxonomy/SKILL.md): Standardize error codes, payload shape, and logging guidance.
+- [`routerbase-gateway`](skills/api/routerbase-gateway/SKILL.md): Integrate OpenAI-compatible apps with [routerbase](https://routerbase.com/) model routing and media generation.
 - [`graphql-query-optimizer`](skills/api/graphql-query-optimizer/SKILL.md): Reduce query depth and N+1 patterns using batching, caching, and pagination.
 
 ### Frontend
