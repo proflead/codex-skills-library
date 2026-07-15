@@ -100,7 +100,7 @@ Skills are organized by domain under `skills/`. Each skill is a folder with a `S
 ### Architecture
 - [`architecture-review`](skills/architecture/architecture-review/SKILL.md): Evaluate assumptions, bottlenecks, and failure modes with tradeoffs.
 - [`domain-modeling`](skills/architecture/domain-modeling/SKILL.md): Identify entities, invariants, and bounded contexts with interfaces.
-- [`ontoly-software-graph`](skills/architecture/ontoly-software-graph/SKILL.md): Use Ontoly's deterministic Software Graph and MCP capabilities for architecture, request tracing, dependency, and impact analysis.
+- [`ontoly-software-graph`](skills/architecture/ontoly-software-graph/SKILL.md): Analyze codebase architecture, dependencies, and request traces using Ontoly's Software Graph.
 
 ### Planning
 - [`refactor-roadmap`](skills/planning/refactor-roadmap/SKILL.md): Sequence refactors with tests, flags, and checkpoints.
