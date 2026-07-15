@@ -1,6 +1,6 @@
 ---
 name: ontoly-software-graph
-description: Use Ontoly's deterministic Software Graph and MCP capabilities for architecture review, request tracing, dependency analysis, and impact analysis.
+description: Analyze codebase architecture, dependencies, and request traces using Ontoly's Software Graph. Use when you need graph-backed codebase understanding before inspecting source files.
 ---
 
 # Ontoly Software Graph
