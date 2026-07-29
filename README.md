@@ -54,6 +54,7 @@ Skills are organized by domain under `skills/`. Each skill is a folder with a `S
 - [`api-contract-checker`](skills/api/api-contract-checker/SKILL.md): Compare endpoints and payloads, flag breaking changes, and suggest versioning.
 - [`api-error-taxonomy`](skills/api/api-error-taxonomy/SKILL.md): Standardize error codes, payload shape, and logging guidance.
 - [`graphql-query-optimizer`](skills/api/graphql-query-optimizer/SKILL.md): Reduce query depth and N+1 patterns using batching, caching, and pagination.
+- [`x-twitter-scraper`](skills/api/x-twitter-scraper/SKILL.md): Automate X/Twitter workflows (search, profile tweets, lookup, export, media, webhooks, MCP, posting) using Xquik.
 
 ### Frontend
 - [`accessibility-basic-check`](skills/frontend/accessibility-basic-check/SKILL.md): Check contrast, labels, focus order, and keyboard navigation for regressions.
