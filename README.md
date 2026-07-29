@@ -1,5 +1,5 @@
 # Codex Skills Library
-<img width="1000" height="420" alt="Codex Skills Library" src="https://github.com/user-attachments/assets/1b76f16f-8873-451d-b367-cd8598e41f25" />
+<img width="1774" height="887" alt="Codex Skills Library" src="https://github.com/user-attachments/assets/4975f348-a825-4d4a-a4e3-294d089dbc73" />
 
 
 A curated library of reusable Codex skills for developers, individuals, and teams.
