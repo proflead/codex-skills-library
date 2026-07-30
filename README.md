@@ -105,6 +105,7 @@ Skills are organized by domain under `skills/`. Each skill is a folder with a `S
 - [`refactor-roadmap`](skills/planning/refactor-roadmap/SKILL.md): Sequence refactors with tests, flags, and checkpoints.
 - [`tech-debt-portfolio`](skills/planning/tech-debt-portfolio/SKILL.md): Catalog debt, estimate impact, and prioritize with ROI.
 - [`roadmap-prioritization`](skills/planning/roadmap-prioritization/SKILL.md): Score initiatives by impact, effort, and dependencies.
+- [`before-you-build`](skills/planning/before-you-build/SKILL.md): Pressure-test a product idea or feature before implementation by identifying the biggest demand, positioning, monetization, retention, and distribution risks.
 - [`org-standardization`](skills/planning/org-standardization/SKILL.md): Propose minimal standards and adoption enforcement.
 - [`vendor-evaluation`](skills/planning/vendor-evaluation/SKILL.md): Compare vendors by security, integration, cost, and risks.
 - [`dependency-upgrade-plan`](skills/planning/dependency-upgrade-plan/SKILL.md): Order upgrades, note breaking changes, and plan rollback.
