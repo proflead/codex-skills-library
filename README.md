@@ -106,6 +106,7 @@ Skills are organized by domain under `skills/`. Each skill is a folder with a `S
 - [`tech-debt-portfolio`](skills/planning/tech-debt-portfolio/SKILL.md): Catalog debt, estimate impact, and prioritize with ROI.
 - [`roadmap-prioritization`](skills/planning/roadmap-prioritization/SKILL.md): Score initiatives by impact, effort, and dependencies.
 - [`org-standardization`](skills/planning/org-standardization/SKILL.md): Propose minimal standards and adoption enforcement.
+- [`meta-skill`](skills/planning/meta-skill/SKILL.md): Evaluate, differentiate, and design Codex skills with a concise design brief and distinctive skill identity.
 - [`vendor-evaluation`](skills/planning/vendor-evaluation/SKILL.md): Compare vendors by security, integration, cost, and risks.
 - [`dependency-upgrade-plan`](skills/planning/dependency-upgrade-plan/SKILL.md): Order upgrades, note breaking changes, and plan rollback.
 - [`simple-refactor`](skills/planning/simple-refactor/SKILL.md): Improve naming and structure without behavior changes.
