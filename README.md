@@ -59,6 +59,7 @@ Skills are organized by domain under `skills/`. Each skill is a folder with a `S
 - [`accessibility-basic-check`](skills/frontend/accessibility-basic-check/SKILL.md): Check contrast, labels, focus order, and keyboard navigation for regressions.
 - [`css-layout-helper`](skills/frontend/css-layout-helper/SKILL.md): Diagnose layout intent and provide minimal flex/grid fixes with rationale.
 - [`cli-ux-improver`](skills/frontend/cli-ux-improver/SKILL.md): Improve CLI defaults, help text, and errors with actionable next steps.
+- [`codex-skin-pack-installer`](skills/frontend/codex-skin-pack-installer/SKILL.md): Install, verify, apply, switch, and restore public-safe Codex desktop skin packs.
 
 ### Backend
 - [`caching-strategy-helper`](skills/backend/caching-strategy-helper/SKILL.md): Choose cache type, TTLs, and invalidation triggers based on freshness needs.
