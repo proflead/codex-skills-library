@@ -67,6 +67,7 @@ Skills are organized by domain under `skills/`. Each skill is a folder with a `S
 - [`system-design-draft`](skills/backend/system-design-draft/SKILL.md): Outline components, data flow, storage, and tradeoffs with open questions.
 
 ### Data
+- [`codex-usage-insights`](https://github.com/holooooo/codex-skill-usage/tree/main/codex-usage-insights): Analyze local Codex JSONL session logs and render a browser-ready HTML dashboard plus JSON data.
 - [`sql-query-starter`](skills/data/sql-query-starter/SKILL.md): Build SELECT queries with filters, ordering, limits, and parameter placeholders.
 - [`db-migration-reviewer`](skills/data/db-migration-reviewer/SKILL.md): Check lock risk, backfills, ordering, and rollback safety.
 - [`data-governance-check`](skills/data/data-governance-check/SKILL.md): Map data sensitivity, retention, access, and audit requirements.
